@@ -1,0 +1,36 @@
+body {
+  background-color: #000;
+  font-family: arial;
+}
+
+.container {
+  width: 320px;
+  margin: 150px auto;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #15172B;
+  box-sizing: border-box;
+}
+.title-form h1, p{
+  color: #fff;
+  margin-left: 20px;
+}
+
+form {
+  margin-top: 50px;
+}
+
+input {
+  width: 80%;
+  margin: 10px 0 20px 15px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #303245;
+}
+
+input[value="Send"] {
+  background-color: #0075ff;
+  color: #fff;
+  width: 90%;
+}
